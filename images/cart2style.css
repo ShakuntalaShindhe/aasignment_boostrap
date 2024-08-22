@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bootstrap{
+    border: 1px solid rgb(244, 237, 237);
+    
+}
+.nav-item .nav-link{
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.navbar-brand{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-brand img{
+    color: wheat;
+    width: 100px;
+    height: 90px;
+}
+.nav-link .bi{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.nav-link .bi-0-circle{
+    font-size: 15px;
+}
+.text{
+    margin-left: 200px;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+}
+.d-block {
+    width: 520px;
+    height:400px;
+}
+.text h6{
+   
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.text b{
+    font-size: 23px;
+}
+.text h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text h4{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text button{
+    background-color: rgb(252, 189, 29);
+    font-weight: 500;
+    font-variant: small-caps;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px dotted black;
+    border-radius: 5%;
+}
+.text button:hover{
+    border: none;
+    transition: 3s ease;
+}
+.mt-5{
+    margin-top: 70px;
+}
+.stars i{
+    color: goldenrod;
+    margin-left: 25px;
+}
+
+.stars i:hover{
+    color:goldenrod;
+}
+.card-title{
+    color:rgb(200, 157, 49) ;
+}
+.card-subtitle{
+    color: darkblue;
+}
+.card:hover{
+    border: none;
+    transition: 8s ease;
+}
+.card-body .btn{
+    background-color: rgb(252, 189, 29);
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-left: 80px;
+    padding: 6px;
+    border-radius: 5%;
+}
+.card-body .btn:hover{
+    border: none;
+    transition: 6s ease;
+}
+.card-title{
+    color:rgb(200, 157, 49) ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 20px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    height: 90px;
+}
+.footer img{
+    width: 130px;
+    height: 100px;
+    margin-right: 130px;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+@media (max-width:376px) {
+    .text{
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+    .text h6{
+        color: rgb(200, 157, 49);
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .text h2{
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text h4{
+        line-height: 2;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+   
+    .text button{
+        margin-left: 70px;
+    }
+    .d-block{
+        width: 300px;
+        height:300px;   
+        
+    }
+    .carousel-item  img{
+        background-image: url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 660px;
+        position: relative;
+        margin-left: 0;
+    }
+    .carousel-inner .carousel-text{
+        background: rgba(0,0,0,0.4);
+        padding: 14px;
+        border-radius: 10px;
+        width: 300px;
+        height: 600px;
+    }
+    .text h6{
+        font-size: 10px;
+    }
+  .Products h1{
+    font-size: 27px;
+  }
+  .shipping .card1{
+    margin-top: 50px;
+  }
+ 
+.body .card-text{ 
+    font-size: 17px;
+    margin-left: 0;
+}
+.body .card-title{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.card1 .body p{
+    width: 200px;
+    height: 150px;
+}
+.footer img{
+    width: 70px;
+    height: 40px;
+    margin-right: 30px;
+}
+.footer p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    }
+    .footer{
+        height: 70px;
+    }
+
+
+ }
+    
+ @media (max-width:426px) {
+    .text{
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+    .text h6{
+        color: rgb(200, 157, 49);
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .text h2{
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text h4{
+        line-height: 2;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+   
+    .text button{
+        margin-left: 70px;
+    }
+    .d-block{
+        width: 300px;
+        height:300px;   
+        
+    }
+    .carousel-item  img{
+        background-image: url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 660px;
+        position: relative;
+        margin-left: 0;
+    }
+    .carousel-inner .carousel-text{
+        background: rgba(0,0,0,0.4);
+        padding: 14px;
+        border-radius: 10px;
+        width: 300px;
+        height: 600px;
+    }
+    .text h6{
+        font-size: 10px;
+    }
+  .Products h1{
+    font-size: 27px;
+  }
+  .rounded-start{
+    width: 100px;   
+}
+.body .card-text{
+    font-size: 15px;
+    margin-left: 0;
+}
+.body .card-title{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.card1 .body p{
+    width: 200px;
+    height: 150px;
+}
+.footer img{
+    width: 70px;
+    height: 40px;
+    margin-right: 30px;
+}
+.footer p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    }
+    .footer{
+        height: 80px;
+    }
+}

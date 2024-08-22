@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bootstrap{
+    background: rgba(0,0,0,0.4);
+    padding: 1px 10px;
+}
+.nav-item .nav-link{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.nav-item .nav-link:hover{
+    color: rgb(200, 157, 49);
+}
+.navbar-brand{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-brand img{
+    color: white;
+    width: 120px;
+    height: 110px;
+}
+.nav-link .bi{
+    font-size: 20px;
+    margin-top: 4px;
+    /* position: relative; */
+}
+.nav-link .bi-0-circle{
+    font-size: 15px;
+    /* position: absolute; */
+}
+.carousel-item  img{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.carousel-inner .carousel-text{
+    background: rgba(0,0,0,0.4);
+    padding: 22px;
+    border-radius: 10px;
+}
+.carousel-inner .carousel-text h6{
+    font-size: 15px;
+    color: gold;
+    margin-left: 60px;
+
+}
+.carousel-inner .carousel-text{
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    color: white;
+}
+.carousel-inner .carousel-text h2{
+    font-size: 30px;
+   margin-left: 30px;
+}
+.carousel-inner .carousel-text h4{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.6;
+    margin-left: 30px;
+}
+.text{
+    margin-left: 200px;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+}
+.d-block {
+    width: 520px;
+    height:400px;
+}
+.text h6{
+    color: rgb(200, 157, 49);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.text h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text h4{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 400;
+}
+.carousel-text button{
+    background-color: rgb(252, 189, 29);
+    font-weight: 500;
+    font-variant: small-caps;
+    margin-left: 26px;
+    padding: 10px 30px;
+    border: 1px dotted black;
+    border-radius: 5%;
+}
+.carousel-text button:hover{
+    border: none;
+    transition: 8s ease;
+}
+.text button{
+    background-color: rgb(252, 189, 29);
+    font-weight: 500;
+    font-variant: small-caps;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px dotted black;
+    border-radius: 5%;
+}
+.text button:hover{
+    border: none;
+    transition: 3s ease;
+}
+ .services .row{
+    border: none;
+}
+.card:hover{
+    border: none;
+    transition: 8s ease;
+}
+.card-body .btn{
+    background-color: rgb(252, 189, 29);
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-left: 80px;
+    padding: 6px;
+    border-radius: 5%;
+}
+.card-body .btn:hover{
+    border: none;
+    transition: 6s ease;
+}
+.card-title{
+    color:rgb(200, 157, 49) ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+.card-img{
+    width: 300px;
+    height: 430px;
+   
+}
+.card-img-overlay .card-title{
+  margin-top: 124%;
+  margin-left: 18px;
+  font-variant: small-caps;
+  font-weight: 600;
+  color:white;
+  font-size: 25px; 
+  background-color: rgba(0,0,0,0.4);
+  width: 200px;
+  padding: 5px;
+  border-radius: 4%;
+  cursor: pointer;
+  
+
+}
+ a{
+    text-decoration: none;
+}
+.card .discount{
+  width: 150px;
+  height: 90px;
+  margin-left: 80px;
+}
+.card1{
+    width: 600px;
+    margin-top: 30px;
+    height: 300px;
+    margin-left: 20px;
+    border: none;
+}
+ .shipping h6{
+    margin-top: 60px;
+    font-size: 20px;
+    color: rgb(200, 157, 49);
+}
+.shipping h3{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.card-text span{
+    font-size: 30px;
+    font-weight: 500;
+}
+.card-body h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.body p{
+    font-size: 18px;
+    font-weight: 300;
+}
+ .card .image{
+    width: 200px;
+    height: 100px;
+   margin-left: 70px;
+ }
+ .choose .card{
+    border: 1px solid red;
+    border: none;
+    margin-left: 20px;
+ }
+ .span span{
+    font-size: 20px;
+    color: rgb(200, 157, 49);
+ }
+ .choose h6{
+    color: rgb(200, 157, 49);
+    font-size: 20px;
+ }
+ .choose h2{
+    font-size: 34px;
+    font-weight: 700;
+ }
+ .Products h6{
+    color: rgb(200, 157, 49);
+    font-size: 20px;
+  
+ }
+.card-body h5 a{
+    color: rgb(200, 157, 49);
+}
+.card-body h5 a:hover{
+    background-color: rgb(200, 157, 49);
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+ .Products h1{
+    font-size: 34px;
+    font-weight: 700;
+ }
+ .Products .btn{
+    background-color: rgb(252, 189, 29);
+    font-weight: 500;
+    font-variant: small-caps;
+    margin-left: 26px;
+    padding: 10px 30px;
+    border: 1px dotted black;
+    border-radius: 5%;
+    margin-left: 600px;
+ }
+ .Products .btn:hover{
+    border: none;
+    transition: 3s ease;  
+ }
+ .footer{
+    margin-top: 20px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    height: 90px;
+}
+.footer img{
+    width: 130px;
+    height: 100px;
+    margin-right: 130px;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+ @media(max-width:768px) {
+    .Products .btn{
+        margin-left: 30px;
+    }
+    .text{
+        margin-left: 140px;
+        width: 400px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+    .text h6{
+        color: rgb(200, 157, 49);
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .text h2{
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text h4{
+        line-height: 2;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+   
+    .text button{
+        margin-left: 150px;
+    }
+    .d-block{
+        width: 540px;
+        height:400px;   
+        
+    }
+    .card-text span{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .card-body h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .body .card-text{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .rounded-start{
+        width: 130px;
+        
+    }
+    .body .card-title{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+ }
+ @media (max-width:1024px) {
+    .card {
+        width: 300px;
+    }
+    .card1{
+        width: 900px;
+        margin-top: 30px;
+        height: 300px;
+        margin-left: 20px;
+        border: none;
+    }
+    .body p{
+        font-size: 24px;
+        font-weight: 300;
+    }
+   
+ }
+ @media (max-width:376px) {
+    .text{
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+    .text h6{
+        color: rgb(200, 157, 49);
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .text h2{
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text h4{
+        line-height: 2;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+   
+    .text button{
+        margin-left: 70px;
+    }
+    .d-block{
+        width: 300px;
+        height:300px;   
+        
+    }
+    .carousel-item  img{
+        background-image: url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 660px;
+        position: relative;
+        
+    }
+    .carousel-inner .carousel-text{
+        background: rgba(0,0,0,0.4);
+        padding: 14px;
+        border-radius: 10px;
+        width: 300px;
+        height: 600px;
+    }
+    .text h6{
+        font-size: 10px;
+    }
+  .Products h1{
+    font-size: 27px;
+  }
+  .Products .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .shipping .card1{
+    margin-top: 50px;
+  }
+ 
+.body .card-text{ 
+    font-size: 17px;
+    margin-left: 0;
+}
+.body .card-title{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.card1 .body p{
+    width: 200px;
+    height: 150px;
+}
+.footer img{
+    width: 70px;
+    height: 40px;
+    margin-right: 30px;
+}
+.footer p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    }
+    .footer{
+        height: 70px;
+    }
+ }
+    
+ @media (max-width:426px) {
+    .text{
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+    .text h6{
+        color: rgb(200, 157, 49);
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .text h2{
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text h4{
+        line-height: 2;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+   
+    .text button{
+        margin-left: 70px;
+    }
+    .d-block{
+        width: 300px;
+        height:300px;   
+        
+    }
+    .carousel-item  img{
+        background-image: url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 660px;
+        position: relative;
+        margin-left: 0;
+    }
+    .carousel-inner .carousel-text{
+        background: rgba(0,0,0,0.4);
+        padding: 14px;
+        border-radius: 10px;
+        width: 300px;
+        height: 600px;
+    }
+    .text h6{
+        font-size: 10px;
+    }
+  .Products h1{
+    font-size: 27px;
+  }
+  .Products .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .rounded-start{
+    width: 100px;   
+}
+.body .card-text{
+    font-size: 15px;
+    margin-left: 0;
+}
+.body .card-title{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.card1 .body p{
+    width: 200px;
+    height: 150px;
+}
+.footer img{
+    width: 70px;
+    height: 40px;
+    margin-right: 30px;
+}
+.footer p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    }
+    .footer{
+        height: 80px;
+    }
+
+
+
+}
+
+
+
+ 
+    
